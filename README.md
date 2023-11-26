@@ -5,7 +5,7 @@ demonstrated by its ability to predict clodsing-prices with a significant probab
 
 The closing-price of Amazon (AMZN) stocks are predicted and plotted with the actual closing-price. We attained the actual closing parameter value trend and the predicted close price value trend very close to each other. Therefore, the transformer model on the given dataset of Amazon (AMZN) works well and the result obtained is as desired. For stock price prediction, we propose a transformer-based model. According to the hyperparameters we display for the 3 models used here namely ‘ARIMA’, ‘LSTM (RNN)’ and ‘Transformer’, the transformer performs significantly better than the others. As observed transformers are faster than actual RNN-based models such as LSTM as all the input are ingested once. We evaluated the models through various parameters after training and testing the validated score of MSE was obtained for the given Amazon Stocks Time series dataset. The training and evaluation demonstrated that the suggested model architectures sufficed for identifying complex patterns in financial time series irregularities. Transformer architecture also shows inflections in stock graphs as observed in the results.
 
-Model Type        Mean Square error
-Transformer        0.0004091
-LSTM (RNN)         0.0004397
-ARIMA              0.0004791
+Model Type | Mean Square error
+Transformer - 0.0004091,
+LSTM (RNN)  -  0.0004397
+ARIMA       -  0.0004791
